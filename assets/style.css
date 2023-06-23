@@ -12,7 +12,6 @@ body{
 
 
 nav {
-    display: inline-block;
     position: relative;
     float: right;
     color: blue;
@@ -54,7 +53,6 @@ img{
     text-align: right;
 }
 footer{
-    
     position: fixed;
     bottom:0;
     width: 100%;
