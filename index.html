@@ -9,7 +9,7 @@
 
     <body>
         <header>
-            <nav class="text-right">
+            <nav class="right">
                 <ul>
                     <li><a href="#">Github</a> </li>
                     <li><a href="#">Portfolio</a></li>
@@ -19,22 +19,30 @@
         </header>
 
         <main>
-        <h1>Main Page</h1>
+        <h1 class="center">Main Page</h1>
         <figure class="picture">
             <img src="./assets/unnamed.jpg" alt="Placeholder"/>
-            <figcaption>A Placehoder</figcaption>
+            <figcaption class="center">Welcome to My Page</figcaption>
         </figure>
 
         <section class="info">
-            <h2>Insert Contact Info</h2>
-            <input type="text" id="contact">
+            <h2 class="center">Insert Contact Info</h2>
+            <form class="center">    
+                <label> Name:</label>
+                <input type="text" id="name">
 
+                <label> Email:</label>
+                <input type="text" id="email">
+
+                <button type="submit"> Submit</button>
+
+            </form>
         </section>
         </main>
 
 
         <footer>
-            <h4>Footer</h4>
+            <h4 class="center">Footer</h4>
 
         </footer>
 
